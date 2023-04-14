@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/22/94/background-of-questions-mark-help-symbol-white-vector-16992294.jpg");
+   /* background: linear-gradient(
+        to right,
+        #77f3ac,
+        #657ced*/
+
+}
+
+.container {
+    position: absolute;
+    width: 50%;
+    min-width: 580px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgb(196, 228, 228);
+    padding: 50px,10px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+h3 {
+    font-size: 20px;
+    font-weight:600;
+}
+
+input[type="text"]{
+    width: 90px;
+    height: 90px;
+    font-weight: 600;
+    color: rgb(131, 131, 233);
+    padding: 20px, 0;
+    text-align: center;
+    margin-top: 30px;
+   border: none;
+   border-radius: 5px;
+    font-size: 30px;
+}
+
+button {
+    width: 90px;
+    height: 60px;
+    padding: 15px, 0;
+    border-radius: 5px;
+    background-color: #edc453;
+    color: rgb(232, 239, 237);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 400;
+
+}
